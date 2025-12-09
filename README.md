@@ -23,7 +23,6 @@ Tech Stack
 
 
 Dataset
-
 The system uses the Kaggle SMS/Email Spam Dataset, which contains a collection of labeled messages. Each entry includes:
 - Message text
 - Spam or non-spam (ham) classification

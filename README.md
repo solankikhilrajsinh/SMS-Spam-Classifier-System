@@ -31,5 +31,3 @@ How It Works
 3. A trained machine learning model predicts whether the message is spam or not.
 4. FastAPI exposes an endpoint through which the classification model can be accessed.
 5. The Streamlit UI sends user input to the API and displays predictions instantly.
-
-The Streamlit UI sends user input to the API and displays predictions instantly.

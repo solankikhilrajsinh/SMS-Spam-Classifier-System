@@ -22,8 +22,8 @@ Tech Stack
 - Kaggle SMS/Email Spam Dataset
 
 
-Dataset 
-  The system uses the Kaggle SMS/Email Spam Dataset, which contains a collection of labeled messages. Each entry includes:
+Dataset
+The system uses the Kaggle SMS/Email Spam Dataset, which contains a collection of labeled messages. Each entry includes:
 - Message text
 - Spam or non-spam (ham) classification
 - Clean and well-structured data suitable for supervised learning tasks

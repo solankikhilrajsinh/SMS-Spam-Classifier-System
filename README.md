@@ -5,23 +5,23 @@ The Olympic Data Analysis System is a comprehensive data analytics application d
 ## Features
 - Interactive sidebar with radio button selection for multiple analysis modes
 
-## Medal Tally Analysis:
+Medal Tally Analysis:
 - Year-wise, country-wise, and overall medal tallies
 - Filter options including year-overall, country-year, and year-country views
 - Structured tabular representation for clear comparison
 
-## Overall Analysis:
+Overall Analysis:
 - Key statistics such as number of editions, host cities, sports, events, nations, and athletes
 - Trend analysis of participating nations, events, and athletes over time
 - Heatmap showing number of events per sport across Olympic editions
 - Identification of the most successful athletes overall or by selected sport (top 10)
 
-## Country-Wise Analysis:
+Country-Wise Analysis:
 - Medal tally trends for selected countries over the years
 - Sport-wise performance heatmaps for each country
 - Top 10 athletes list for the selected country
 
-## Athlete-Wise Analysis:
+Athlete-Wise Analysis:
 - Age distribution by medal type (gold, silver, bronze, overall)
 - Age distribution with respect to sports for gold medalists
 - Height vs weight analysis (overall and sport-specific)

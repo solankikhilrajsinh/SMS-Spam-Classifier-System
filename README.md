@@ -28,7 +28,7 @@ This project is a complete Email/SMS Spam Classification System built using Pyth
 - Clean and well-structured data suitable for supervised learning tasks
 
 
-##How It Works
+## How It Works
 1. Text messages are cleaned and preprocessed using NLP techniques.
 2. Messages are converted into numerical vectors using TF-IDF or other vectorization methods.
 3. A trained machine learning model predicts whether the message is spam or not.

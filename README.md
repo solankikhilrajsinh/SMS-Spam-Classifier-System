@@ -1,40 +1,51 @@
-## Email/SMS Spam Classification System
-This project is a complete Email/SMS Spam Classification System built using Python, FastAPI, and Streamlit. It applies machine learning and text-processing techniques to accurately classify messages as spam or non-spam. The system uses the Kaggle SMS/Email Spam Dataset and integrates multiple preprocessing and modeling libraries to ensure reliable and real-time predictions through an API-driven architecture.
+## Olympic Data Analysis System
+The Olympic Data Analysis System is a comprehensive data analytics application developed using Python, Flask, FastAPI, and Streamlit. It analyzes historical Olympic data to provide meaningful insights into medal distributions, athlete performance, country-wise achievements, and participation trends. The system uses publicly available Kaggle datasets, including athlete_events and noc_regions, and presents interactive visualizations through a user-friendly interface.
 
 
 ## Features
-- Classification of SMS and email messages into spam or non-spam
-- Preprocessing of text data including cleaning, tokenization, stopword removal, and vectorization
-- FastAPI backend serving predictions through REST endpoints
-- Streamlit frontend interface for message input and classification output
-- Integration of machine learning and NLP models (e.g., Naive Bayes, Logistic Regression, SVM)
-- Modular and scalable project structure suitable for deployment
+- Interactive sidebar with radio button selection for multiple analysis modes
+
+## Medal Tally Analysis:
+- Year-wise, country-wise, and overall medal tallies
+- Filter options including year-overall, country-year, and year-country views
+- Structured tabular representation for clear comparison
+
+## Overall Analysis:
+- Key statistics such as number of editions, host cities, sports, events, nations, and athletes
+- Trend analysis of participating nations, events, and athletes over time
+- Heatmap showing number of events per sport across Olympic editions
+- Identification of the most successful athletes overall or by selected sport (top 10)
+
+## Country-Wise Analysis:
+- Medal tally trends for selected countries over the years
+- Sport-wise performance heatmaps for each country
+- Top 10 athletes list for the selected country
+
+## Athlete-Wise Analysis:
+- Age distribution by medal type (gold, silver, bronze, overall)
+- Age distribution with respect to sports for gold medalists
+- Height vs weight analysis (overall and sport-specific)
+- Male vs female participation trends with interactive line selection
 
 
 ## Tech Stack
 - Python
-- FastAPI (Backend API)
-- Streamlit (Frontend UI)
+- Flask and FastAPI (Backend Processing)
+- Streamlit (Frontend Visualization)
 - Pandas, NumPy
-- Scikit-learn
-- NLTK and text-processing libraries
-- Kaggle SMS/Email Spam Dataset
-
-
-## Dataset
-The system uses the Kaggle SMS/Email Spam Dataset, which contains a collection of labeled messages. Each entry includes:
-- Message text
-- Spam or non-spam (ham) classification
-- Clean and well-structured data suitable for supervised learning tasks
+- Matplotlib, Seaborn, Plotly
+- Scipy and data preprocessing utilities
+- Kaggle Olympic Datasets (athlete_events, noc_regions)
 
 
 ## How It Works
-1. Text messages are cleaned and preprocessed using NLP techniques.
-2. Messages are converted into numerical vectors using TF-IDF or other vectorization methods.
-3. A trained machine learning model predicts whether the message is spam or not.
-4. FastAPI exposes an endpoint through which the classification model can be accessed.
-5. The Streamlit UI sends user input to the API and displays predictions instantly.
+1. Olympic datasets are cleaned, merged, and preprocessed for analysis.
+2. Users select analysis type through sidebar controls.
+3. Statistical computations and visualizations are generated dynamically.
+4. Interactive charts, heatmaps, and tables provide deep analytical insights.
 
 
 ## Conclusion
-The Email/SMS Spam Classification System successfully demonstrates the use of machine learning and NLP techniques to accurately distinguish between spam and non-spam messages. By integrating a FastAPI backend with a Streamlit interface, the project enables real-time, reliable, and user-friendly predictions. The combination of text preprocessing, vectorization methods, and multiple ML models ensures strong performance and scalability. This system provides a solid foundation for future enhancements, such as model optimization, deep learning integration, or deployment in production environments.
+The Olympic Data Analysis System offers a powerful and intuitive platform for exploring Olympic history through data. By combining robust preprocessing, multiple analytical perspectives, and rich visualizations, the project demonstrates advanced data analysis and visualization capabilities. It serves as a strong example of end-to-end analytics application development using Python-based technologies.
+
+
